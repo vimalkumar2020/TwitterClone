@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EFMVCModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Following">
+    <Key>
+      <PropertyRef Name="user_id" />
+      <PropertyRef Name="following_id" />
+    </Key>
+    <Property Name="user_id" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="following_id" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="fullName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="joined" Type="DateTime" Nullable="false" Precision="7" />
+    <Property Name="active" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Tweets" Relationship="EFMVCModel.FK__Tweet__user_id__3D5E1FD2" FromRole="Person" ToRole="Tweet" />
+    <NavigationProperty Name="Person1" Relationship="EFMVCModel.Following1" FromRole="Person" ToRole="Person1" />
+    <NavigationProperty Name="People" Relationship="EFMVCModel.Following1" FromRole="Person1" ToRole="Person" />
+  </EntityType>
+  <EntityType Name="Tweet">
+    <Key>
+      <PropertyRef Name="tweet_id" />
+    </Key>
+    <Property Name="tweet_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="user_id" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="message" Type="String" MaxLength="140" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="created" Type="DateTime" Nullable="false" Precision="7" />
+    <NavigationProperty Name="Person" Relationship="EFMVCModel.FK__Tweet__user_id__3D5E1FD2" FromRole="Tweet" ToRole="Person" />
+  </EntityType>
+  <EntityContainer Name="EFMVCEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Followings" EntityType="Self.Following" />
+    <EntitySet Name="People" EntityType="Self.Person" />
+    <EntitySet Name="Tweets" EntityType="Self.Tweet" />
+    <AssociationSet Name="FK__Tweet__user_id__3D5E1FD2" Association="EFMVCModel.FK__Tweet__user_id__3D5E1FD2">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Tweet" EntitySet="Tweets" />
+    </AssociationSet>
+    <AssociationSet Name="Following1" Association="EFMVCModel.Following1">
+      <End Role="Person" EntitySet="People" />
+      <End Role="Person1" EntitySet="People" />
+    </AssociationSet>
+  </EntityContainer>
+  <Association Name="FK__Tweet__user_id__3D5E1FD2">
+    <End Type="EFMVCModel.Person" Role="Person" Multiplicity="1" />
+    <End Type="EFMVCModel.Tweet" Role="Tweet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="user_id" />
+      </Principal>
+      <Dependent Role="Tweet">
+        <PropertyRef Name="user_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="Following1">
+    <End Type="EFMVCModel.Person" Role="Person" Multiplicity="*" />
+    <End Type="EFMVCModel.Person" Role="Person1" Multiplicity="*" />
+  </Association>
+</Schema>

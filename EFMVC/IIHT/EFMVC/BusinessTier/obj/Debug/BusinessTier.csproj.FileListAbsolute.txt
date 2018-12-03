@@ -1,0 +1,30 @@
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\BusinessTier.dll
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\BusinessTier.pdb
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\DataAccess.dll
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\EntityFramework.dll
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\DataAccess.pdb
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\DataAccess.dll.config
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\EntityFramework.xml
+F:\TFS\IIHT\EF\BusinessTier\obj\Debug\BusinessTier.csprojResolveAssemblyReference.cache
+F:\TFS\IIHT\EF\BusinessTier\obj\Debug\BusinessTier.csproj.CoreCompileInputs.cache
+F:\TFS\IIHT\EF\BusinessTier\obj\Debug\BusinessTier.csproj.CopyComplete
+F:\TFS\IIHT\EF\BusinessTier\obj\Debug\BusinessTier.dll
+F:\TFS\IIHT\EF\BusinessTier\obj\Debug\BusinessTier.pdb
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\EntityFramework.SqlServer.dll
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\EntityFramework.SqlServer.xml
+F:\TFS\IIHT\EF\BusinessTier\bin\Debug\BusinessTier.dll.config
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\BusinessTier.dll.config
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\BusinessTier.dll
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\BusinessTier.pdb
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\DataAccess.dll
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\EntityFramework.dll
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\DataAccess.pdb
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\DataAccess.dll.config
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\EntityFramework.xml
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\obj\Debug\BusinessTier.csprojResolveAssemblyReference.cache
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\obj\Debug\BusinessTier.csproj.CoreCompileInputs.cache
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\obj\Debug\BusinessTier.csproj.CopyComplete
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\obj\Debug\BusinessTier.dll
+C:\Users\Theju.THEJU\Desktop\New folder (5)\EFMVC\IIHT\EFMVC\BusinessTier\obj\Debug\BusinessTier.pdb

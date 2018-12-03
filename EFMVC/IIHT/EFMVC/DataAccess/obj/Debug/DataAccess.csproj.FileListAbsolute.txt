@@ -1,0 +1,12 @@
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\DataAccess.dll
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\DataAccess.pdb
+F:\TFS\IIHT\EF\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+F:\TFS\IIHT\EF\DataAccess\obj\Debug\DataAccess.dll
+F:\TFS\IIHT\EF\DataAccess\obj\Debug\DataAccess.pdb
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\EntityFramework.dll
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\EntityFramework.xml
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+F:\TFS\IIHT\EF\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+F:\TFS\IIHT\EF\DataAccess\bin\Debug\DataAccess.dll.config
+F:\TFS\IIHT\EF\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

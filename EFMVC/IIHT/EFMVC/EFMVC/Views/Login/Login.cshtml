@@ -1,0 +1,45 @@
+﻿@model EFMVC.BusinessTier.PersonModel
+@{
+    ViewBag.Title = "Login";
+}
+
+
+@using (Html.BeginForm("Login", "Login"))
+{
+    <fieldset>
+        <legend>Welcome to twitter clone</legend>
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5>user id</h5>
+                </div>
+                <div class="col-lg-3">
+                    @Html.EditorFor(model => model.UserId)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5>password</h5>
+                </div>
+                <div class="col-lg-3">
+                    @Html.PasswordFor(model => model.Password)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <input type="submit" value="Login" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <h4>New User? </h4>
+                </div>
+                <div class="col-lg-3">
+                    @Html.ActionLink("Signup", "Signup", "Signup")
+                </div>
+            </div>
+        </div>
+    </fieldset>
+}

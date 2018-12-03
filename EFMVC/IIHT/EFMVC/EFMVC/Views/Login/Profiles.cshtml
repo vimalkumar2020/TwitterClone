@@ -1,0 +1,53 @@
+﻿@model EFMVC.BusinessTier.PersonModel
+
+@using (Html.BeginForm("Profiles", "Login"))
+{
+    <h4>Profile </h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>user id</h5>
+            </div>
+            <div class="col-lg-3">
+                @Html.EditorFor(model => model.UserId, new { htmlAttributes = new { @readonly = "readonly" } })
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>password</h5>
+            </div>
+            <div class="col-lg-3">
+                @Html.PasswordFor(model => model.Password)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>fullName</h5>
+            </div>
+            <div class="col-lg-3">
+                @Html.EditorFor(model => model.FullName)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <h5>email</h5>
+            </div>
+            <div class="col-lg-3">
+                @Html.EditorFor(model => model.Email)
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <input type="submit" value="Save" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-3">
+                @Html.ActionLink("Delete Account", "DeleteAccount", "Login")
+            </div>
+        </div>
+        
+    </div>
+
+}
